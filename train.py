@@ -36,3 +36,15 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# Understanding the if __name__ == "__main__": Pattern
+# This is a Python idiom that controls when your code runs. 
+# It's one of the most important patterns in Python, especially for scripts and modules.
+
+# What It Does --The condition if __name__ == "__main__": 
+# checks whether the current file is being run directly (as a script) 
+# versus being imported as a module into another file. 
+# When you run train.py directly from the command line or terminal, 
+# Python sets the special variable __name__ to the string "__main__". 
+# However, if another file imports train.py, 
+# the __name__ variable is set to the module's name (in this case, "train").
