@@ -48,3 +48,4 @@ if __name__ == "__main__":
 # Python sets the special variable __name__ to the string "__main__". 
 # However, if another file imports train.py, 
 # the __name__ variable is set to the module's name (in this case, "train").
+# Why It's Useful -- This pattern allows you to write code that can be reused as a module
